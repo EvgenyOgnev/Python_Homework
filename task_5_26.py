@@ -14,9 +14,6 @@ def aRaisePowerB(a, b):
         return 1
     elif b == 1:
         return a
-    # elif b == 2:
-    #     return a * a
-    # else:
     return a * (aRaisePowerB(a, b - 1))
 
 
